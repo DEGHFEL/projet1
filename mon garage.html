@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8"/>
+    <title>mon garage </title>
+    <script src="mongarage.js"></script>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="mon garage.css">
+    
+
+  </head>
+
+  <body>
+    
+    <div id="blocknav" class="blocknav" > 
+      <img src="images/logo.png" alt="logo"  class="logo" width="250px" height="80px">
+       
+       <ul id="ul" class="ul">
+         <li class="li"><a class="linav" href="#" id="border1" >Accueil</a></li>
+         <li class="li"><a class="linav" href="#Services">Services</a></li>
+         <li class="li"><a class="linav" href="#Quisommesnous">Qui sommes-nous</a></li>
+         <li class="li"><a class="linav" href="#Contact">Contact</a></li>
+       </ul>		
+    </div>
+    
+    <div class="container1"> 
+        
+      <img src="images/image01.jpg" alt="photo" class="image01-redimensionnee">
+      
+      
+    </div>
+
+
+    <div class="Services" id="Services">
+        
+       <h2 class="h2" > NOS SERVICES</h2>
+   
+       <img src="images/Mécanique Générale.jpg" alt="photo"class=i1  width=400px;  height=200px; title="Mécanique Générale ">
+    
+      <div class="ps1">
+        
+      <h3 >Mécanique Générale</h3>
+
+        <p>service de mécanique générale est la pierre angulaire de notre garage. 
+        Nos mécaniciens hautement qualifiés sont prêts à diagnostiquer et à réparer efficacement 
+        tous les problèmes
+        mécaniques de votre véhicule. Que ce soit pour une réparation d'urgence ou un entretien préventif, 
+        nous vous garantissons un service fiable et de qualité supérieure.</p> 
+      </div>
+    
+       <img src="images/Carrosserie.jpeg" alt="photo"class=i2  width=400px;  height=200px; title="Carrosserie">
+    
+        <div class="ps2">  
+      
+          <h3>Carrosserie</h3>
+          <p>Notre atelier de carrosserie est équipé pour redonner à votre véhicule son aspect d'origine après 
+          un accident ou des dommages liés à l'usure. 
+          Que ce soit pour la réparation de petits accrocs ou la restauration complète, 
+          nos experts en carrosserie veilleront 
+          à ce que votre voiture retrouve son éclat et sa sécurité d'origine</p>
+       </div>
+    
+        <img src="images/Entretien Automobile.jpg" alt="photo"class=i3  width=400px;  height=200px; title="Entretien Automobile"> 
+      
+        <div class="ps3"> 
+        <h3>Entretien Automobile</h3>
+        <p> L'entretien régulier est essentiel pour prolonger la durée de vie de votre véhicule.
+        Notre équipe dévouée vous offre une gamme complète de services d'entretien automobile, 
+        allant de la vidange d'huile aux révisions périodiques. 
+        Vous pouvez compter sur nous pour garder votre voiture en parfait état de fonctionnement.
+        </p>
+        </div>
+      
+        <img src="images/Voitures d'Occasion.jpg" alt="photo"class=i4  width=400px;  height=200px; title="Voitures d'Occasion"> 
+      
+        <div class="ps4">
+          <h3> Vente de Voitures d'Occasion</h3> 
+            <p>À la recherche d'une voiture d'occasion de confiance ? 
+             Nous proposons une sélection soigneusement choisie de voitures d'occasion de haute qualité. 
+           Chacun de nos véhicules d'occasion est inspecté et préparé pour vous garantir une conduite en toute sérénité. 
+           Venez découvrir notre inventaire et trouvez la voiture parfaite pour vos besoins et votre budget.  </p>
+     
+         </div>
+     </div>
+     <div class="rondevous"> 
+           <a href="rendezvous.html"> <h4>Prendre rendez-vous</h4></a>
+    </div>
+     </div>
+
+      <div class="Quisommesnous" id="Quisommesnous">
+        <p class="pqsn">
+          L'entreprise de Vincent Parrot, le Garage V. Parrot, est bien plus qu'un simple atelier de réparation automobile à Toulouse. 
+          Avec une impressionnante expérience de 15 ans dans le domaine de la réparation automobile, 
+          Vincent a fait de son garage un véritable pilier de la communauté automobile locale depuis son ouverture en 2021. 
+          Ses services vont bien au-delà de la simple réparation de carrosserie et de mécanique, 
+          englobant également un entretien régulier qui garantit la performance et la sécurité des véhicules de ses clients.
+           De plus, en proposant des véhicules d'occasion, 
+           Vincent Parrot a élargi son offre pour répondre à divers besoins. 
+           Ce qui distingue vraiment le Garage V. Parrot, c'est la vision de Vincent : 
+           il considère chaque voiture qui franchit ses portes comme devant être entre de bonnes mains,
+            ce qui fait de son atelier un lieu de confiance incontournable pour les propriétaires de véhicules de la région.
+        </p> 
+        <div class="formulaire"> 
+          <div class="container mt-5">
+            <h1>Laissez-nous votre avis</h1>
+            <form id="avisForm">
+                <div class="form-group">
+                    <label for="nomPrenom">Nom et Prénom</label>
+                    <input type="text" class="form-control" id="nomPrenom" placeholder="Entrez votre nom et prénom">
+                </div>
+                <div class="form-group">
+                    <label for="telEmail">Téléphone ou E-mail</label>
+                    <input type="text" class="form-control" id="telEmail" placeholder="Entrez votre numéro de téléphone ou votre adresse e-mail">
+                </div>
+                <div class="form-group">
+                    <label for="evaluation">Évaluation (de 1 à 5 étoiles)</label>
+                    <div class="rating">
+                        <input type="radio" name="rating" value="1"><span class="icon">★</span>
+                        <input type="radio" name="rating" value="2"><span class="icon">★</span>
+                        <input type="radio" name="rating" value="3"><span class="icon">★</span>
+                        <input type="radio" name="rating" value="4"><span class="icon">★</span>
+                        <input type="radio" name="rating" value="5"><span class="icon">★</span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="commentaire">Commentaire</label>
+                    <textarea class="form-control" id="commentaire" rows="4" placeholder="Saisissez votre commentaire"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Soumettre</button>
+            </form>
+        </div>
+
+
+
+
+
+        </div>
+
+        <div class="avis">les avis de nous clients</div>
+
+
+
+
+      </div>
+      
+       <div class="Contact" id="Contact">
+        
+        <div class=horaires>
+          <h3>Horaires d’ouverture</h3>
+          <p>Du lundi au vendredi de</p>
+          <p>08:45:00-12:00:00 <br>et de<br> 14:00:00-18:00:00</p>
+          <p>Le samedi de</p>
+          <p>08:45:00-12:00:00</p>
+          <p>Fermé les dimanches</p>
+
+        </div>
+         
+        <div class="contacte">
+            
+            <h3>Nous contacter</h3>
+            <p>garage.parrot@email.com</p>
+            <p>Téléphone :</p>
+            <p>06-XX-XX-XX-XX</p>
+
+
+        </div> 
+        <div class="adresse"> 
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11557.419970430976!2d1.4242414424412548!3d43.59914970005353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aebb6fec7552ff%3A0x406f69c2f411030!2sToulouse!5e0!3m2!1sfr!2sfr!4v1695165335374!5m2!1sfr!2sfr" width="1200" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+        </div>
+
+
+
+
+      </div> 
+ 
+ 
+ 
+ 
+ 
+ 
+    </body>
+
+   
+     
+      
+    
+      

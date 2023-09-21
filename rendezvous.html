@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8"/>
+    <title>mon garage </title>
+    <script src="mongarage.js"></script>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="rendezvous.css">
+</head>
+
+<body>
+    <div class="right">
+        <form action="">
+          <h2>&bull; Prendre rendez-vous &bull;</h2>
+          <div class="underline"></div>
+          <div class="name">
+              <label for="lastname"></label>
+              <input type="text" name="lastname" placeholder="Nom" required>
+          </div>
+          <div class="email">
+              <label for="email"></label>
+              <input type="text" name="email" placeholder="E-mail">
+          </div>
+          <div class="phone-number">
+              <label for="phone"></label>
+              <input type="text" name="phone" placeholder="Téléphone" required>
+          </div>
+          <div class="time">
+              <label for="rdv"></label>
+              <input type="date" name="rdv" value="2023-09-19">
+              <input id="appt-time" type="time" name="appt-time" min="14:00" max="17:00" required pattern="[0-9]{2}:[0-9]{2}">
+          </div>
+          <div class="subject">
+              <label for="subject"></label>
+              <select placeholder="Objet" name="subject" id="subject_input" required>
+                  <option disabled hidden selected>Objet</option>
+                  <option>Mécanique Générale</option>
+                  <option>Carrosserie</option>
+                  <option>Entretien Automobile</option>
+                 
+              </select>
+          </div>
+          <label for="comment"></label>
+          <textarea placeholder="Message" name="comment" id="comment" cols="30" rows="10"></textarea>
+          <div class="divButton">
+              <button>Soumettre</button>
+          </div>
+      </form>
+  </div>
+
+</body>

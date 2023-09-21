@@ -1,0 +1,270 @@
+.html,body {
+   
+  margin: 0px;
+  padding: 0px;  
+
+}
+body{
+  height: 500VH;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(14,1fr);
+  grid-template-rows: repeat(120,1fr) ;
+}
+
+  
+  .blocknav{
+    display: grid;
+    background-color: rgb(255, 252, 252);
+    height: 100PX;
+    width: 110%;
+    grid-template-columns: repeat(14,1fr);
+    grid-template-rows: repeat(5,1fr) ;
+    position: fixed;
+  
+    
+  }
+  .logo{
+    display: grid;
+    grid-column-start:3 ;
+    grid-column-end:6 ;
+    grid-row-start:2 ;
+    grid-row-end: 5;
+    
+  }
+  
+  .ul, .li .linav{ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    grid-column-start:8 ;
+    grid-column-end:15 ;
+    grid-row-start:1 ;
+    grid-row-end: 4; 
+    padding-top: 25px;
+    text-decoration:none;
+    list-style: none;   
+  }
+  
+  .linav, .li {
+    grid-column-start:9 ;
+    grid-column-end:15 ;
+    grid-row-start:1 ;
+    grid-row-end: 4; 
+    display: flex;
+    text-decoration:none;
+    list-style: none;
+    color: black;
+    margin-right: 10px;
+    font-size: larger;
+  
+  
+  }
+  li :hover {
+    border-top: 3px solid red ;
+  }
+  #border1{
+    border-top: 3px solid red ;
+  }
+  .container1{
+    
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 14;
+    grid-row-start:5 ;
+    grid-row-end:25 ;
+    
+    
+  }
+  .image01-redimensionnee {
+    width:1300px; 
+    height: 450px; 
+}
+
+.Services{
+  display: grid;
+  grid-column-start:1 ;
+  grid-column-end: 15;
+  grid-row-start:26 ;
+  grid-row-end:62 ;
+  grid-template-columns: repeat(14,1fr);
+  grid-template-rows: repeat(30,1fr) ;
+}
+
+.h2{
+  display: grid;
+  grid-column-start:6;
+  grid-column-end:15;
+  grid-row-start:1;
+  grid-row-end:3 ;
+  font-weight: bold;
+  color: red;
+
+}
+.ps{
+  display: grid;
+  grid-column-start:4;
+  grid-column-end: 11;
+  grid-row-start:8 ;
+  grid-row-end:10;
+  margin-left: 50px;
+
+}
+ .i1{
+  display: grid;
+  grid-column-start:2;
+  grid-column-end: 5;
+  grid-row-start:4 ;
+  grid-row-end:10;
+  border-radius: 10px
+ }
+
+ .ps1{ 
+  display: grid;
+  grid-column-start:5;
+  grid-column-end: 15;
+  grid-row-start:4 ;
+  grid-row-end:10;
+  margin-left: 20px;
+  margin-top: 20px;
+ }
+
+ .i2{
+  display: grid;
+  grid-column-start:2;
+  grid-column-end: 6;
+  grid-row-start:11 ;
+  grid-row-end:17;
+  border-radius: 10px
+  
+ }
+ .ps2{ 
+  display: grid;
+  grid-column-start:5;
+  grid-column-end: 15;
+  grid-row-start:11 ;
+  grid-row-end:17;
+  margin-left: 20px;
+
+
+ }
+ .i3{
+  display: grid;
+  grid-column-start:2;
+  grid-column-end: 5;
+  grid-row-start:18 ;
+  grid-row-end:24;
+  margin-right: 10px;
+  border-radius: 10px
+  
+ }
+ .ps3{ 
+  display: grid;
+  grid-column-start:5;
+  grid-column-end: 15;
+  grid-row-start:18 ;
+  grid-row-end:24;
+  margin-left: 20px;
+  
+ } 
+ .i4{
+  display: grid;
+  grid-column-start:2;
+  grid-column-end: 5;
+  grid-row-start:25 ;
+  grid-row-end:31;
+  margin-right: 10px;
+  border-radius: 10px
+ }
+ .ps4{ 
+  display: grid;
+  grid-column-start:5;
+  grid-column-end: 15;
+  grid-row-start:25 ;
+  grid-row-end:31;
+  margin-left: 20px;
+ } 
+ .rondevous{ display: grid;
+  grid-column-start:7;
+  grid-column-end: 12;
+  grid-row-start:63 ;
+  grid-row-end:65; 
+
+
+ }
+
+ .Quisommesnous{
+  display: grid;
+  grid-column-start:1 ;
+  grid-column-end: 15;
+  grid-row-start:64 ;
+  grid-row-end:97 ;
+  grid-template-columns: repeat(14,1fr);
+  grid-template-rows: repeat(45,1fr) ;
+ 
+ }
+.pqsn{
+  display: grid;
+  grid-column-start:2 ;
+  grid-column-end: 14;
+  grid-row-start:7;
+  grid-row-end:17 ;
+  font-style: italic;
+  font-weight: bold;
+}
+.formulaire{
+  display: grid;
+  grid-column-start:2 ;
+  grid-column-end: 08;
+  grid-row-start:18;
+  grid-row-end:43 ;
+ 
+  border-radius: 10px
+
+}
+.avis{
+  display: grid;
+  grid-column-start:09 ;
+  grid-column-end: 14;
+  grid-row-start:18;
+  grid-row-end:28 ;
+ 
+
+}
+
+
+ .Contact{
+  display: grid;
+  grid-column-start:1 ;
+  grid-column-end: 15;
+  grid-row-start:98 ;
+  grid-row-end:121 ;
+  grid-template-columns: repeat(14,1fr);
+  grid-template-rows: repeat(30,1fr) ;
+
+ }
+ .horaires{
+  display: grid;
+  grid-column-start:3 ;
+  grid-column-end: 08;
+  grid-row-start:1 ;
+  grid-row-end:14 ;
+ 
+ }
+ .contacte{
+  display: grid;
+  grid-column-start:10 ;
+  grid-column-end: 15;
+  grid-row-start:1 ;
+  grid-row-end:14 ;
+ }
+ 
+ .adresse{ display: grid;
+  grid-column-start:02 ;
+  grid-column-end: 14;
+  grid-row-start:16 ;
+  grid-row-end:31 ;
+ 
+
+
+ }
